@@ -52,5 +52,4 @@ func main() {
 
 	server2 := newServer(withTLS, maxConnections(100))
 	fmt.Printf("%+v \n", server2)
-
 }

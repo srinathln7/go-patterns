@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Server struct {
 	id    int
@@ -22,4 +24,5 @@ func main() {
 	// Can we do BETTER?
 	server := newServer(1, "127.0.0.1", false)
 	fmt.Printf("%+v \n", server)
+
 }
